@@ -25,6 +25,7 @@ async function sendAjax() {
     console.log(result);
 }
 
+
  fetch(url)
      .then(response => {
          // console.log(response)
