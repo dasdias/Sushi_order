@@ -25,7 +25,7 @@ btn.onclick = (e) => {
    
 }
 
- fetch('http://127.0.0.1:5500/info2.json')
+ fetch('https://dasdias.github.io/Sushi_order/info2.json')
      .then(response => {
          // console.log(response)
          if (response.ok && response.status === 200) {
