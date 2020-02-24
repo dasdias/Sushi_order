@@ -1,2 +1,2 @@
 # Sushi_order
-[Github Pages](https://dasdias.github.io/web-calculate/ "Посмотреть страницу") \- посмотреть страницу
+[Github Pages]( https://dasdias.github.io/Sushi_order/ "Посмотреть страницу") \- посмотреть страницу
