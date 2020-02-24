@@ -1,6 +1,6 @@
 <?php
 // echo '<pre>';
-// print_r(POST);
+// print_r($_POST);
 // echo '</pre>';
 echo "Privet";
 ?>
