@@ -4,28 +4,28 @@ let form = document.querySelector('form');
 let inp = document.querySelector('form input');
 let data = {};
 let item = [];
-
+let url = "http://sushi-order/info2.json";
+let url2 = "http://sushi-order/response.php";
 
 
 btn.onclick = (e) => {
-    e.preventDefault();
-    let getData = [];
-    // let data = btn.value;
-    console.log(form.elements);
-    for (let i = 0; i < form.elements.length; i++) {
-        getData.push(form.elements[i]['name']);
-        
-    }
-        // console.log(data);
-    // form.elements.forEach((item) =>{
-    //     data.push(item.name);
-    // })
-
-
-   
+    e.preventDefault();   
+    // console.log(form.elements);    
+    sendAjax();
 }
 
- fetch('http://127.0.0.1:5500/info2.json')
+async function sendAjax() {
+    // console.log(form);
+    let response = await fetch(url2, {
+        method: 'POST',
+        body: new FormData(form)
+    });
+
+    let result = await response.json();
+    console.log(result);
+}
+
+ fetch(url)
      .then(response => {
          // console.log(response)
          if (response.ok && response.status === 200) {
