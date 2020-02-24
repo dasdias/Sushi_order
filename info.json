@@ -1,0 +1,32 @@
+{
+    {
+        id: 1,
+        countItem: 0,
+        image: 'philadelphia.jpg',
+        price: 300
+
+
+    },
+    {
+        id: 2,
+        countItem: 0,
+        image: 'california-hit.jpg',
+        price: 250
+
+    },
+    {
+        id: 3,
+        countItem: 0,
+        image: 'california-tempura.jpg',
+        price: 350
+
+    },
+    {
+        id: 4,
+        countItem: 0,
+        image: 'zapech-california.jpg',
+        price: 400
+
+    },
+
+}
